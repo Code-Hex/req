@@ -4,6 +4,7 @@
 /src
 /vendor
 /server/bindata.go
+/server/server
 /server/data/static/build
 
 .pid
