@@ -27298,6 +27298,12 @@
 	            'Headers'
 	          ),
 	          React.createElement(
+	            'div',
+	            null,
+	            React.createElement(_elemental.Glyph, { icon: 'plus' }),
+	            ' Add Headers'
+	          ),
+	          React.createElement(
 	            _elemental.FormRow,
 	            null,
 	            React.createElement(
