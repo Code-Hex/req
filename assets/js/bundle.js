@@ -27177,7 +27177,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var methods = ["get", "post", "put", "head", "delete", "patch"];
+	var methods = ["get", "post", "put", "head", "delete", "options", "trace", "connect"];
 	var style = {
 	  main: {
 	    margin: "0 auto",
@@ -27321,6 +27321,12 @@
 	            'h3',
 	            null,
 	            'Parameters'
+	          ),
+	          React.createElement(
+	            'div',
+	            null,
+	            React.createElement(_elemental.Glyph, { icon: 'plus' }),
+	            ' Add Headers'
 	          ),
 	          React.createElement(
 	            _elemental.FormRow,

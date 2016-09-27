@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Glyph, Button, Form, FormField, Checkbox, FormInput, FormSelect, FormRow } from 'elemental';
 
-var methods = ["get", "post", "put", "head", "delete", "patch"]
+var methods = ["get", "post", "put", "head", "delete", "options", "trace", "connect"]
 var style = {
   main: {
     margin: "0 auto",
@@ -83,6 +83,7 @@ export default class Home extends React.Component {
                 </FormField>
               </FormRow>
               <h3>Parameters</h3>
+              <div><Glyph icon="plus" /> Add Headers</div>
               <FormRow>
                 <FormField width="one-half" label="Key" htmlFor="key-name">
                   <FormInput placeholder="Key" name="key1" />
