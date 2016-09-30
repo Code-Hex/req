@@ -27308,7 +27308,7 @@
 	            null,
 	            React.createElement(
 	              _elemental.FormField,
-	              { width: 'one-half', label: 'Key', htmlFor: 'key-name' },
+	              { width: 'one-sixth', label: 'Key', htmlFor: 'key-name' },
 	              React.createElement(_elemental.FormInput, { placeholder: 'Key', name: 'key1' })
 	            ),
 	            React.createElement(
@@ -27333,7 +27333,7 @@
 	            null,
 	            React.createElement(
 	              _elemental.FormField,
-	              { width: 'one-half', label: 'Key', htmlFor: 'key-name' },
+	              { width: 'one-sixth', label: 'Key', htmlFor: 'key-name' },
 	              React.createElement(_elemental.FormInput, { placeholder: 'Key', name: 'key1' })
 	            ),
 	            React.createElement(

@@ -20,7 +20,7 @@ func main() {
 	os.Setenv("REQ-MODE", "development")
 	if os.Getenv("REQ-MODE") == "development" {
 		e.Use(middleware.Logger())
-		e.SetDebug(true)
+		e.SetDebug(false)
 	}
 
 	e.Use(middleware.Recover())

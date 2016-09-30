@@ -75,7 +75,7 @@ export default class Home extends React.Component {
               <h3>Headers</h3>
               <div><Glyph icon="plus" /> Add Headers</div>
               <FormRow>
-                <FormField width="one-half" label="Key" htmlFor="key-name">
+                <FormField width="one-sixth" label="Key" htmlFor="key-name">
                   <FormInput placeholder="Key" name="key1" />
                 </FormField>
                 <FormField width="one-half" label="Value" htmlFor="value-name">
@@ -85,7 +85,7 @@ export default class Home extends React.Component {
               <h3>Parameters</h3>
               <div><Glyph icon="plus" /> Add Headers</div>
               <FormRow>
-                <FormField width="one-half" label="Key" htmlFor="key-name">
+                <FormField width="one-sixth" label="Key" htmlFor="key-name">
                   <FormInput placeholder="Key" name="key1" />
                 </FormField>
                 <FormField width="one-half" label="Value" htmlFor="value-name">
